@@ -1,0 +1,60 @@
+/* ItemDetails.css */
+.item-details {
+    display: flex;            
+    flex-direction: column;  
+    align-items: center;      
+    justify-content: center;  
+    text-align: center;      
+    margin: 0 auto;           
+    height: 100vh;  
+    width: 400px; 
+    margin-top: -10px;         
+}
+
+.item-details img {
+    width: 300px;            
+    height: auto;             
+    margin-bottom: 20px;     
+}
+
+.item-details h2 {
+    font-size: 24px;         
+    margin-bottom: 10px;      
+}
+
+.item-details p {
+    font-size: 18px;          
+    margin-bottom: 20px;     
+}
+
+.item-prices {
+    display: flex;            
+    gap: 10px;                
+    margin-bottom: 20px;      
+}
+
+.item-price-new {
+    color: blue;           
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item-price-old {
+    color: gray;          
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 20px;       
+    background-color: rgb(117, 7, 7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;     
+}
+
+button:hover {
+    background-color: darkred;
+}

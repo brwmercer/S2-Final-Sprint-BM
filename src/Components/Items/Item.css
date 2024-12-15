@@ -1,0 +1,49 @@
+.item {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap properly */
+    justify-content: center; /* Horizontally centers items */
+    align-items: center; /* Vertically centers items */
+    text-align: center; /* Ensures text aligns properly */
+    margin: 0 auto; /* Centers the container itself */
+    gap: 20px; /* Adds space between items */
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item img {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+}
+
+.item-prices {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item-price-new {
+    color: blue;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item-price-old {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+.item:hover {
+    transform: scale(1.09);
+    transition: 0.5s;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
