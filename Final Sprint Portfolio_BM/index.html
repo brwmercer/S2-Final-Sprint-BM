@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Braeden Mercer - Portfolio</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div class="background">
+        <section id="home">
+            <header>
+                <h1>Braeden Mercer</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am an aspiring software developer born in Edmonton, raised in Newfoundland & Labrador. 
+                My desire to solve problems and generate solutions is what drives me in this industry. 
+                In my free time you can find me either watching sports or heavily invested in a good book.
+            </p>
+        </section>
+    </div>
+    
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Tic-Tac-Toe</h3>
+            <p>A simple game but a classic. </p>
+            <div class="game-board">
+                <div class="cell" id="cell-0"></div>
+                <div class="cell" id="cell-1"></div>
+                <div class="cell" id="cell-2"></div>
+                <div class="cell" id="cell-3"></div>
+                <div class="cell" id="cell-4"></div>
+                <div class="cell" id="cell-5"></div>
+                <div class="cell" id="cell-6"></div>
+                <div class="cell" id="cell-7"></div>
+                <div class="cell" id="cell-8"></div>
+            </div>
+        </div>
+        <br />
+        <h3>Project 2: Weather App</h3>
+        <p>Get live results of the weather for any city of your choosing.</p>
+        <div class="container">
+            <h2 style="color: black;">Weather App</h2>
+            <p style="color: blue;">Enter a city to get the current weather.</p>
+            <input type="text" id="city-input" placeholder="Enter city name" />
+            <button id="fetch-weather">Get Weather</button>
+            <div class="result">
+              <p>Temperature: <span id="temperature">N/A</span></p>
+              <p>Humidity: <span id="humidity">N/A</span></p>
+              <p>Weather: <span id="weather-description">N/A</span></p>
+            </div>
+          </div>
+
+        <h3>Project 3: Live Digital Clock</h3>
+        <p>Implement a live clock into your page at any time</p>
+        <div class="clock-container">
+            <h2>Current Time</h2>
+            <p id="clock">Loading...</p>
+        </div>
+
+    </section>
+
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at brwmercer@gmail.com or (709) 728-5031.<br />
+            Visit my <a target="_blank" href="//github.com/brwmercer">GitHub</a>
+            for my full portfolio.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; Braeden Mercer 2024</p>
+    </footer>
+
+    <script src="tic-tac-toe.js"></script> 
+    <script src="weather.js"></script>
+    <script src="clock.js"></script>
+</body>
+</html>
